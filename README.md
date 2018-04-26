@@ -1,2 +1,2 @@
-# weekday-calculator
-Example implementation of weekday calculation for any date since year 1582
+# Weekday calculator
+Example implementation of weekday calculation for any date since year 1582.
