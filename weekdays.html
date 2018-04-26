@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Weekday calculation</title>
+      <meta charset="UTF-8" >
+      <meta name="author" content="Ulf K&uuml;hnle">
+      <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+      <link href='weekdays.css' rel='stylesheet' type='text/css'>
+   </head>
+
+   <body>
+      <div id="input-group">
+         <h3>Get weekday for date</h3>
+         <div>
+            Date:<br>
+            <input type="text" class="two-digit" size="2" placeholder="DD" id="day">
+            <input type="text" class="two-digit" size="2" placeholder="MM" id="month">
+            <input type="text" class="four-digit" size="4" placeholder="YYYY" id="year">
+            <span id="result"></span>
+         </div>
+         <button type="button" id="calc">Calculate</button>
+         <br>
+         <br>
+         <div id="error-messages">
+            <span id="error-messages-close">×</span>
+            <span id="error-messages-text">
+            </span>
+         </div>
+         <div class="source-link">Info on calculation see <a href="https://de.wikipedia.org/wiki/Wochentagsberechnung" target="_blank">here</a>.</div>
+         <input type="checkbox" id="debug-enabled"><span id="debug-enabled-text">Show debug output</span></input>
+      </div>
+      <div id="debug-output-box">
+         <span id="debug-header">Debug-Output:</span><br>
+         <span id="debug-output"></span>
+      </div>
+   </body>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+   <script src="weekdays.js"></script>
+
+</html>

@@ -1,0 +1,67 @@
+/* Styles for weekdays.html */
+
+body {
+   font-family: "Arial";
+   margin: 30px;
+   background-color: #e8e8ff;
+}
+button {
+   margin-top:20px;
+   font-size: 100%;
+}
+input {
+   text-align: right;
+}
+#debug-output-box {
+   margin-top: 20px;
+   color: #666;
+   display: none;
+   font-size: 90%;
+}
+#debug-header {
+   font-weight: bold;
+}
+.two-digit {
+   width: 28px;
+   font-size: 100%;
+}
+.four-digit {
+   width: 48px;
+   font-size: 100%;
+}
+#debug-enabled {
+   margin-top: 30px;
+}
+#debug-enabled-text {
+   font-size: 90%;
+}
+.source-link {
+   font-size: 80%;
+   color: #888;
+}
+.input-error {
+   background-color: #ffaaaa;
+}
+#error-messages {
+   background-color: #ee8888;
+   color: #fff0f0;
+   margin-left: 50px;
+   margin-bottom: 15px;
+   display: none;
+   padding: 12px;
+   border: 1px solid #dd6666;
+   width: 600px;
+   border-radius: 5px;
+}
+#error-messages-close {
+   float: right;
+   margin: -10px -5px 0px 0px;
+   padding-right: 5px;
+   color: #ffdddd;
+   font-size: 19.5px;
+   font-weight: bold;
+   text-shadow: 1px 2px 0 #333;
+}
+#error-messages-close:hover {
+   color: #e0c0c0;
+}
